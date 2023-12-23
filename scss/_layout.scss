@@ -1,0 +1,46 @@
+
+body{
+    width: 100%;
+    font-family: $base-font;
+    color: $text-color;
+    font-size: 1em;
+    line-height: 1.6;
+}
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+@media (max-width: $display-m) {
+    .main{
+        padding-top: 7rem;
+    }
+}
+
+@media (max-width: $display-s) {
+    .main{
+        padding-top: $gap-huge;
+    }
+}
+
+.section{
+    width: 100%;
+    max-width: $display-xxl;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: $gap-huge;
+}
+
+@media (max-width: $display-l) {
+    .section{
+        gap: $gap-xl;
+    }
+}
+
+@media (max-width: $display-m) {
+    .section{
+        gap: $gap-xxl;
+        grid-template-columns: 1fr;
+    }
+}

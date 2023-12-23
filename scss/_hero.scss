@@ -1,0 +1,47 @@
+.hero{
+    padding: $gap-xxl $gap-l;
+    &__text{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: $gap-l;
+        .button{
+            margin-top: $gap-l;
+        }
+    }
+    &__image{
+        width: 100%;
+    }
+}
+
+@media (max-width: $display-xl) {
+    .hero__image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: $display-m) {
+    .hero{  
+        padding: $gap-l;
+        &__text{
+            .button{
+                margin-top: $gap-s;
+            }
+        }
+    }
+}
+
+@media (max-width: $display-s) {
+    .hero{  
+        &__text{
+            align-items: center;
+            text-align: center;
+            .button{
+                margin-top: 0;
+            }
+        }
+    }
+}

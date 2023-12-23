@@ -1,0 +1,28 @@
+//Displays
+$display-xxl: 90rem; //1440px
+$display-xl: 75rem; //1200px
+$display-l: 56.25rem; //900px
+$display-m: 50rem; //800px
+$display-s: 37.5rem; //600px
+
+//Colors
+$text-color: #120F18;
+$layout-color: #FFFFFF;
+$primary-color: #46D6DD;
+$primary-color--light: #DDFFFF;
+$secondary-color: #5C9DDC;
+$secondary-color--dark: #27415C;
+
+//Typography
+$base-font: 'Montserrat', sans-serif;
+$regular-font: 100;
+$bold-font: 700;
+
+//Gaps
+$gap-xs: 0.5rem; //8px
+$gap-s: 1rem; //16px
+$gap-m: 1.5rem; //24px
+$gap-l: 2rem; //32px
+$gap-xl: 2.5rem; //40px
+$gap-xxl: 4rem; //64px
+$gap-huge: 5rem; //80px

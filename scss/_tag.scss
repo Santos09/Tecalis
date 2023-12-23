@@ -1,0 +1,15 @@
+.tag{
+    padding: $gap-xs $gap-s;
+    border-radius: 6.25rem;
+    -webkit-border-radius: 6.25rem;
+    -moz-border-radius: 6.25rem;
+    -ms-border-radius: 6.25rem;
+    -o-border-radius: 6.25rem;
+    font-size: 1em;
+    line-height: 1.25;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $secondary-color;
+    outline: 2px solid $secondary-color;
+    outline-offset: -2px;
+}

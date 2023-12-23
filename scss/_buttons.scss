@@ -1,0 +1,45 @@
+.link{
+    cursor: pointer;
+    text-decoration: none;
+    color: $secondary-color;
+    
+    &:hover, :active, :focus{
+        color: $primary-color;
+    }
+}
+.button{
+    cursor: pointer;
+    font-size: 1.125em;
+    font-weight: $bold-font;
+    line-height: 1.34;
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+    
+    &__primary{
+        padding: $gap-s $gap-l;
+        border-radius: $gap-s;
+        -webkit-border-radius: $gap-s;
+        -moz-border-radius: $gap-s;
+        -ms-border-radius: $gap-s;
+        -o-border-radius: $gap-s;
+        color: $layout-color;
+        background-color: $primary-color;
+
+        &:hover, :focus{
+            background-color: $secondary-color;
+        }
+    }
+}
+
+.button__icon{
+    width: 100%;
+    max-width: 40px;
+    display: none;
+}
+
+@media (max-width: $display-m) {
+    .button__icon{
+        display: block;
+    }
+}
